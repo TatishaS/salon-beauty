@@ -1,0 +1,67 @@
+.footer {
+  &__white {
+    background-color: #fff;
+  }
+
+  &__top {
+    padding: 3.7rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bottom {
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+
+    color: #828282;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__address {
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+    margin-right: 10.5rem;
+  }
+
+  &__phone {
+    display: inline-block;
+    margin-right: 4rem;
+    font-size: 1.6rem;
+  }
+
+  &__btn {
+    background-color: #fff;
+    border: 0.2rem solid $accent-green;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    margin-right: 2rem;
+  }
+
+  &__link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.2rem solid $accent-green;
+    width: 4rem;
+    height: 4rem;
+  }
+}

@@ -1,0 +1,56 @@
+.products {
+  margin-bottom: 10rem;
+  &__title {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #000000;
+    padding-bottom: 3.8rem;
+
+    background: url(../../images/car.svg);
+    background-repeat: no-repeat;
+    background-size: 18.8rem 6.1rem;
+    background-position: 95% 20%;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+  }
+
+  &__item {
+    text-align: center;
+    padding: 2.5rem 3rem;
+    background-color: #fff;
+  }
+
+  &__item-img {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  &__descr {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__price {
+    display: block;
+    font-weight: 500;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+
+  &__btn {
+    display: inline-block;
+    text-align: center;
+    min-width: 13rem;
+    background-color: $accent-green;
+    color: #fff;
+  }
+}
